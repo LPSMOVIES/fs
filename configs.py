@@ -6,12 +6,12 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "25712813"))
 	API_HASH = os.environ.get("API_HASH", "c201751b80c7d185f986141cbadc4275")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5746832210:AAE7DdZemqYrCZdWU87CGyVV8wwkf0jdknw")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "filestore_4u_bot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001820837134"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1103338063 5493968060"))
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5739780592:AAE8OUakXak2zGaeOPCkueO96EBF438YgVQ")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "filestore_lsbot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001696803534"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5493968060"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Logesh:Logesh2004@cluster0.4ugjjmm.mongodb.net/?retryWrites=true&w=majority")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "Logeshbots")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001726298985")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
@@ -49,7 +49,7 @@ Send Me any Media or File.I can Work In Channel too Add Me to Channel with Edit 
 
 𝐀𝐥𝐬𝐨 𝐫𝐞𝐦𝐞𝐦𝐛𝐞𝐫 𝐭𝐡𝐚𝐭 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐰𝐢𝐥𝐥 𝐃𝐞𝐥𝐞𝐭𝐞 𝐀𝐝𝐮𝐥𝐭 𝐂𝐨𝐧𝐭𝐞𝐧𝐭𝐬 𝐟𝐫𝐨𝐦 𝐃𝐚𝐭𝐚𝐛𝐚𝐬𝐞. 𝐒𝐨 𝐛𝐞𝐭𝐭𝐞𝐫 𝐝𝐨𝐧'𝐭 𝐒𝐭𝐨𝐫𝐞 𝐓𝐡𝐨𝐬𝐞 𝐊𝐢𝐧𝐝 𝐨𝐟 𝐓𝐡𝐢𝐧𝐠𝐬.
 
-[**Donate Me**]
+[**Donate Me**](https://t.me/logesh_bots)
 """
 	HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
